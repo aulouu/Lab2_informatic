@@ -11,13 +11,13 @@ public class inf {
             int[] elements = new int[7];
             for (int i = 0; i < 7; i++)
                 elements[i] = e[i] - '0';
-            for (int i : elements){
+            for (int i : elements) {
                 if (i==2 || i==3 || i==4 || i==5 || i==6 || i==7 || i==8 || i==9)
                 System.out.println("Ошибка");
                 break;
             }
-            for (int i : elements){
-                if (i==0 || i==1){
+            for (int i : elements) {
+                if (i==0 || i==1) {
             int s1 = (elements[0] + elements[2] + elements[4] + elements[6]) % 2;
             int s2 = (elements[1] + elements[2] + elements[5] + elements[6]) % 2;
             int s3 = (elements[3] + elements[4] + elements[5] + elements[6]) % 2;
@@ -81,4 +81,6 @@ public class inf {
         }
              break;
     }
-}}}
+}
+}
+}
